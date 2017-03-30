@@ -1,0 +1,47 @@
+@mixin fs($font:0.6rem){
+  font-size:$font;
+}
+@mixin h($height){
+  height:$height;
+}
+@mixin w($width){
+  width:$width;
+}
+@mixin bgColor($bgColor){
+  background-color:$bgColor;
+}
+@mixin lh($lh){
+  line-height:$lh;
+}
+@mixin ml($ml){
+  margin-left: $ml;
+}
+@mixin mr($mr){
+  margin-right: $mr;
+}
+@mixin mt($mt){
+  margin-top:$mt;
+}
+@mixin mb($mb){
+  margin-bottom: $mb;
+}
+@mixin pt($pt){
+  padding-top:$pt;
+}
+@mixin pr($pr){
+  padding-right: $pr;
+}
+@mixin pl($pl){
+  padding-left:$pl;
+}
+@mixin pb($pb){
+  padding-bottom: $pb;
+}
+@mixin tl($tl){
+  text-align:$tl;
+}
+
+.tl-center{
+  text-align: center;
+}
+
